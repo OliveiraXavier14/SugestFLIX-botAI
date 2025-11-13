@@ -16,7 +16,7 @@ document.getElementById('procurar').addEventListener('click', async() => {
         const buttonProcurar = document.getElementById('procurar');
 
         buttonProcurar.disabled = true;
-        buttonProcurar.innerHTML = "A procurar <img src='assets/img/loading.svg' alt='Loading' id='loadingGif'>";
+        buttonProcurar.innerHTML = "A procurar <img src='./assets/img/loading.svg' alt='Loading' id='loadingGif'>";
         buttonProcurar.style = "cursor: not-allowed;";
         
         const webhookURL = "https://oliveiraxavier14.app.n8n.cloud/webhook/1ceace4d-69f0-4386-abe6-8821b045cad5";
@@ -62,4 +62,5 @@ document.getElementById('procurar').addEventListener('click', async() => {
     }
 
 })
+
 
