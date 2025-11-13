@@ -1,0 +1,120 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    text-align: center;
+    min-height: 100vh;
+    height: auto;
+    background-image: url('../assets/img/gradienteFundo.png');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    letter-spacing: 1.5px;
+    font-family: bebas neue;
+    padding: 5rem 1rem;
+}
+
+#mainTitle{
+    color: #D81F26;
+    font-size: 5rem;    
+}
+
+#subTitle{
+    color: #fff;
+    font-weight: 100;
+    margin-top: -0.5rem;
+    max-width: 80%;
+    justify-self: center;
+}
+
+.destaque{
+    color: #D81F26;
+}
+
+.searchBox{
+    display: flex;
+    flex-direction: column;
+    width: 80%;
+    justify-self: center;
+    margin-top: 5rem;
+    gap: 1rem;
+}
+
+#mood{
+    height: 4rem;
+    border-radius: 8px;
+    padding: 5px;
+    background-color: #2B2C2F;
+    border: none;
+    box-shadow: #7a7a7a 0px 0px 5px;
+    font-size: 0.9rem;
+    width: 30rem;
+    align-self: center;
+    color: #fff;
+}
+
+#mood:focus{
+    outline: none;
+}
+
+#procurar {
+    background-image: linear-gradient(to right, #e52d27 0%, #b31217  51%, #e52d27  100%);
+    margin: 10px;
+    padding: 15px 45px;
+    text-align: center;
+    text-transform: uppercase;
+    transition: 0.5s;
+    background-size: 200% auto;
+    color: #fff;            
+    box-shadow: 0 0 5px #eee;
+    border-radius: 10px;
+    display: block;
+    font-weight: bold;
+    letter-spacing: 1px;
+    width: fit-content;
+    align-self: center;
+    cursor: pointer;
+    border: none;
+}
+
+#procurar:hover {
+    background-position: right center;
+    color: #fff;
+    text-decoration: none;
+}
+
+#loadingGif{
+    height: 1rem;
+    width: 1rem;
+}
+
+#resultado{
+    color: #fff;
+    margin-top: 2rem;
+    display: inline-grid;
+    gap: 1rem;
+}
+
+#sugestaoTitle{
+    max-width: 30rem;
+}
+
+#sugestaoImagem{
+    height: 20rem;
+    border-radius: 10px;
+    justify-self: center;
+}
+
+@media (max-width: 600px) {
+
+    .searchBox{
+        width: 80%;
+    }
+
+    #mood{
+        width: 100%;
+    }
+
+}
