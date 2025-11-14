@@ -45,12 +45,11 @@ body{
     text-align: center;
     width: 100%;
     max-width: 30rem;
-    align-items: center;
-    justify-content: center;
     margin-top: 5rem;
     gap: 1rem;
-    justify-self: center;
-    align-self: center;
+    position: relative;
+    left: 50%;
+    transform: translate(-50%);
 }
 
 #mood{
@@ -129,6 +128,7 @@ body{
 
 
 }
+
 
 
 
