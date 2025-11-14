@@ -40,7 +40,8 @@ body{
 .searchBox{
     display: flex;
     flex-direction: column;
-    width: 80%;
+    width: 100%;
+    max-width: 30rem;
     align-items: center;
     margin-top: 5rem;
     gap: 1rem;
@@ -130,6 +131,7 @@ body{
 
 
 }
+
 
 
 
