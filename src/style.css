@@ -14,7 +14,7 @@ body{
     letter-spacing: 1.5px;
     font-family: bebas neue;
     padding: 5rem 1rem;
-    justify-self: center;
+    justify-content: center;
 }
 
 #mainTitle{
@@ -120,3 +120,4 @@ body{
 
 
 }
+
