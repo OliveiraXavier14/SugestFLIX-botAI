@@ -28,6 +28,7 @@ body{
     margin-top: -0.5rem;
     max-width: 80%;
     justify-self: center;
+    align-self: center;
 }
 
 .destaque{
@@ -53,6 +54,7 @@ body{
     font-size: 0.9rem;
     width: 30rem;
     align-self: center;
+    justify-self: center;
     color: #fff;
 }
 
@@ -76,6 +78,7 @@ body{
     letter-spacing: 1px;
     width: fit-content;
     align-self: center;
+    justify-self: center;
     cursor: pointer;
     border: none;
 }
@@ -120,4 +123,5 @@ body{
 
 
 }
+
 
