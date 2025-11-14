@@ -121,28 +121,17 @@ body{
 
     .searchBox{
         width: 80%;
+        justify-content: center;
+        align-self: center;
     }
 
     #mood{
         width: 100%;
+        align-self: center;
     }
 
+    #procurar{
+        align-self: center;
+    }
 
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
