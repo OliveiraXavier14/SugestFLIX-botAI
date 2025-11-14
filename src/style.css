@@ -84,6 +84,7 @@ body{
     width: fit-content;
     cursor: pointer;
     border: none;
+    align-self: center;
 }
 
 #procurar:hover {
@@ -126,6 +127,7 @@ body{
 
 
 }
+
 
 
 
