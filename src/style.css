@@ -52,7 +52,6 @@ body{
 }
 
 #mood{
-    display: flex;
     height: 4rem;
     border-radius: 8px;
     padding: 5px;
@@ -62,8 +61,6 @@ body{
     font-size: 0.9rem;
     width: 100%;
     max-width: 30rem;
-    align-self: center;
-    justify-self: center;
     color: #fff;
 }
 
@@ -72,7 +69,6 @@ body{
 }
 
 #procurar {
-    display: flex;
     background-image: linear-gradient(to right, #e52d27 0%, #b31217  51%, #e52d27  100%);
     margin: 10px;
     padding: 15px 45px;
@@ -87,8 +83,6 @@ body{
     font-weight: bold;
     letter-spacing: 1px;
     max-width: 100%;
-    align-self: center;
-    justify-self: center;
     cursor: pointer;
     border: none;
 }
@@ -133,6 +127,7 @@ body{
 
 
 }
+
 
 
 
