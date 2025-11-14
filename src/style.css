@@ -41,14 +41,11 @@ body{
 .searchBox{
     display: flex;
     flex-direction: column;
-    text-align: center;
+    align-items: center; 
     width: 100%;
     max-width: 30rem;
     margin-top: 5rem;
     gap: 1rem;
-    justify-content: center;
-    align-self: center;
-    text-align: center;
 }
 
 #mood{
@@ -71,7 +68,7 @@ body{
 
 #procurar {
     background-image: linear-gradient(to right, #e52d27 0%, #b31217  51%, #e52d27  100%);
-    margin: 10px;
+    margin: 10px 0;
     padding: 15px 45px;
     text-align: center;
     text-transform: uppercase;
@@ -121,17 +118,11 @@ body{
 
     .searchBox{
         width: 80%;
-        justify-content: center;
-        align-self: center;
     }
 
     #mood{
         width: 100%;
-        align-self: center;
     }
-
-    #procurar{
-        align-self: center;
-    }
-
+    
 }
+
